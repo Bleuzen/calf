@@ -273,6 +273,7 @@ AC_MSG_RESULT([
     LV2 enabled:                 $LV2_ENABLED
     LV2 GTK+ GUI enabled:        $LV2_GUI_ENABLED
     JACK host enabled:           $JACK_ENABLED
+    Use JACK:                    $USE_JACK
     LASH enabled:                $LASH_ENABLED])
 if test "$LASH_ENABLED" = "yes"; then
   AC_MSG_RESULT([    Unstable LASH API:           $LASH_0_6_FOUND])
